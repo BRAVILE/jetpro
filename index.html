@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Betting Game</h1>
+        <div id="wallet">
+            <p>Wallet: <span id="walletAmount">0</span> KES</p>
+            <button id="addMoney">Add Money</button>
+        </div>
+        <div id="game">
+            <p id="jetMultiplier">x1.00</p>
+            <button id="betButton">Place Bet</button>
+            <button id="cashOutButton" disabled>Cash Out</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
